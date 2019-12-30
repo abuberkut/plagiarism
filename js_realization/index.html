@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Realization</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="container">
+       <div class="row no-gutters justify-content-center">
+           <div class="col-sm-8 border">
+               <input id="expOne" type="text" class="form-control" placeholder="Input first expression">
+               <input id="expTwo" type="text" class="form-control" placeholder="Input second expression">
+               <input id="trBtn" type="submit" class="w-100" value="Transform">
+           </div>
+       </div>
+       <div class="row no-gutters justify-content-center">
+           <div class="col-sm border">
+           <div class="text-center">
+               <p class="text-secondary">First Expression</p>
+               <div id="firstExp" class="border"></div>
+               <p class="text-secondary mt-5">Second Expression</p>
+               <div id="secondExp" class="border"></div>
+               <p class="mt-5 text-success">Plagiarism percentage</p>
+               <div id="plagPer" class="border"></div>
+
+           </div>
+           </div>
+       </div>
+   </div>
+    <script src="jquery-3.4.1.min.js"></script>    
+    <script src="bootstrap.js"></script>    
+    <script src="popper.min.js"></script>    
+    <script src="main.js"></script>    
+</body>
+</html>
